@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033E97491FD7DF5F00E8E5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E97481FD7DF5F00E8E5C9 /* AppDelegate.swift */; };
+		033E974B1FD7DF5F00E8E5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E974A1FD7DF5F00E8E5C9 /* ViewController.swift */; };
+		033E974E1FD7DF5F00E8E5C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E974C1FD7DF5F00E8E5C9 /* Main.storyboard */; };
+		033E97501FD7DF5F00E8E5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E974F1FD7DF5F00E8E5C9 /* Assets.xcassets */; };
+		033E97531FD7DF5F00E8E5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E97511FD7DF5F00E8E5C9 /* LaunchScreen.storyboard */; };
+		033E975E1FD7DF5F00E8E5C9 /* AblifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E975D1FD7DF5F00E8E5C9 /* AblifeTests.swift */; };
+		033E97691FD7DF5F00E8E5C9 /* AblifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E97681FD7DF5F00E8E5C9 /* AblifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033E975A1FD7DF5F00E8E5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033E973D1FD7DF5E00E8E5C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033E97441FD7DF5E00E8E5C9;
+			remoteInfo = Ablife;
+		};
+		033E97651FD7DF5F00E8E5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033E973D1FD7DF5E00E8E5C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033E97441FD7DF5E00E8E5C9;
+			remoteInfo = Ablife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033E97451FD7DF5E00E8E5C9 /* Ablife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ablife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E97481FD7DF5F00E8E5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		033E974A1FD7DF5F00E8E5C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		033E974D1FD7DF5F00E8E5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		033E974F1FD7DF5F00E8E5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033E97521FD7DF5F00E8E5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		033E97541FD7DF5F00E8E5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E97591FD7DF5F00E8E5C9 /* AblifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AblifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E975D1FD7DF5F00E8E5C9 /* AblifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AblifeTests.swift; sourceTree = "<group>"; };
+		033E975F1FD7DF5F00E8E5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E97641FD7DF5F00E8E5C9 /* AblifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AblifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E97681FD7DF5F00E8E5C9 /* AblifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AblifeUITests.swift; sourceTree = "<group>"; };
+		033E976A1FD7DF5F00E8E5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033E97421FD7DF5E00E8E5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97561FD7DF5F00E8E5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97611FD7DF5F00E8E5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033E973C1FD7DF5E00E8E5C9 = {
+			isa = PBXGroup;
+			children = (
+				033E97471FD7DF5E00E8E5C9 /* Ablife */,
+				033E975C1FD7DF5F00E8E5C9 /* AblifeTests */,
+				033E97671FD7DF5F00E8E5C9 /* AblifeUITests */,
+				033E97461FD7DF5E00E8E5C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033E97461FD7DF5E00E8E5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033E97451FD7DF5E00E8E5C9 /* Ablife.app */,
+				033E97591FD7DF5F00E8E5C9 /* AblifeTests.xctest */,
+				033E97641FD7DF5F00E8E5C9 /* AblifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033E97471FD7DF5E00E8E5C9 /* Ablife */ = {
+			isa = PBXGroup;
+			children = (
+				033E97481FD7DF5F00E8E5C9 /* AppDelegate.swift */,
+				033E974A1FD7DF5F00E8E5C9 /* ViewController.swift */,
+				033E974C1FD7DF5F00E8E5C9 /* Main.storyboard */,
+				033E974F1FD7DF5F00E8E5C9 /* Assets.xcassets */,
+				033E97511FD7DF5F00E8E5C9 /* LaunchScreen.storyboard */,
+				033E97541FD7DF5F00E8E5C9 /* Info.plist */,
+			);
+			path = Ablife;
+			sourceTree = "<group>";
+		};
+		033E975C1FD7DF5F00E8E5C9 /* AblifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				033E975D1FD7DF5F00E8E5C9 /* AblifeTests.swift */,
+				033E975F1FD7DF5F00E8E5C9 /* Info.plist */,
+			);
+			path = AblifeTests;
+			sourceTree = "<group>";
+		};
+		033E97671FD7DF5F00E8E5C9 /* AblifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				033E97681FD7DF5F00E8E5C9 /* AblifeUITests.swift */,
+				033E976A1FD7DF5F00E8E5C9 /* Info.plist */,
+			);
+			path = AblifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033E97441FD7DF5E00E8E5C9 /* Ablife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E976D1FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "Ablife" */;
+			buildPhases = (
+				033E97411FD7DF5E00E8E5C9 /* Sources */,
+				033E97421FD7DF5E00E8E5C9 /* Frameworks */,
+				033E97431FD7DF5E00E8E5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ablife;
+			productName = Ablife;
+			productReference = 033E97451FD7DF5E00E8E5C9 /* Ablife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033E97581FD7DF5F00E8E5C9 /* AblifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E97701FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "AblifeTests" */;
+			buildPhases = (
+				033E97551FD7DF5F00E8E5C9 /* Sources */,
+				033E97561FD7DF5F00E8E5C9 /* Frameworks */,
+				033E97571FD7DF5F00E8E5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033E975B1FD7DF5F00E8E5C9 /* PBXTargetDependency */,
+			);
+			name = AblifeTests;
+			productName = AblifeTests;
+			productReference = 033E97591FD7DF5F00E8E5C9 /* AblifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		033E97631FD7DF5F00E8E5C9 /* AblifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E97731FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "AblifeUITests" */;
+			buildPhases = (
+				033E97601FD7DF5F00E8E5C9 /* Sources */,
+				033E97611FD7DF5F00E8E5C9 /* Frameworks */,
+				033E97621FD7DF5F00E8E5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033E97661FD7DF5F00E8E5C9 /* PBXTargetDependency */,
+			);
+			name = AblifeUITests;
+			productName = AblifeUITests;
+			productReference = 033E97641FD7DF5F00E8E5C9 /* AblifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033E973D1FD7DF5E00E8E5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Azamat Mukhamejanov";
+				TargetAttributes = {
+					033E97441FD7DF5E00E8E5C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					033E97581FD7DF5F00E8E5C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 033E97441FD7DF5E00E8E5C9;
+					};
+					033E97631FD7DF5F00E8E5C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 033E97441FD7DF5E00E8E5C9;
+					};
+				};
+			};
+			buildConfigurationList = 033E97401FD7DF5E00E8E5C9 /* Build configuration list for PBXProject "Ablife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033E973C1FD7DF5E00E8E5C9;
+			productRefGroup = 033E97461FD7DF5E00E8E5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033E97441FD7DF5E00E8E5C9 /* Ablife */,
+				033E97581FD7DF5F00E8E5C9 /* AblifeTests */,
+				033E97631FD7DF5F00E8E5C9 /* AblifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033E97431FD7DF5E00E8E5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E97531FD7DF5F00E8E5C9 /* LaunchScreen.storyboard in Resources */,
+				033E97501FD7DF5F00E8E5C9 /* Assets.xcassets in Resources */,
+				033E974E1FD7DF5F00E8E5C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97571FD7DF5F00E8E5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97621FD7DF5F00E8E5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033E97411FD7DF5E00E8E5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E974B1FD7DF5F00E8E5C9 /* ViewController.swift in Sources */,
+				033E97491FD7DF5F00E8E5C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97551FD7DF5F00E8E5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E975E1FD7DF5F00E8E5C9 /* AblifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E97601FD7DF5F00E8E5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E97691FD7DF5F00E8E5C9 /* AblifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033E975B1FD7DF5F00E8E5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033E97441FD7DF5E00E8E5C9 /* Ablife */;
+			targetProxy = 033E975A1FD7DF5F00E8E5C9 /* PBXContainerItemProxy */;
+		};
+		033E97661FD7DF5F00E8E5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033E97441FD7DF5E00E8E5C9 /* Ablife */;
+			targetProxy = 033E97651FD7DF5F00E8E5C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033E974C1FD7DF5F00E8E5C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033E974D1FD7DF5F00E8E5C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		033E97511FD7DF5F00E8E5C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033E97521FD7DF5F00E8E5C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033E976B1FD7DF5F00E8E5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		033E976C1FD7DF5F00E8E5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033E976E1FD7DF5F00E8E5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = Ablife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.Ablife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033E976F1FD7DF5F00E8E5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = Ablife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.Ablife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033E97711FD7DF5F00E8E5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = AblifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.AblifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ablife.app/Ablife";
+			};
+			name = Debug;
+		};
+		033E97721FD7DF5F00E8E5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = AblifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.AblifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ablife.app/Ablife";
+			};
+			name = Release;
+		};
+		033E97741FD7DF5F00E8E5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = AblifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.AblifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ablife;
+			};
+			name = Debug;
+		};
+		033E97751FD7DF5F00E8E5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAU2MMY76P;
+				INFOPLIST_FILE = AblifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = absoft.AblifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ablife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033E97401FD7DF5E00E8E5C9 /* Build configuration list for PBXProject "Ablife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E976B1FD7DF5F00E8E5C9 /* Debug */,
+				033E976C1FD7DF5F00E8E5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E976D1FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "Ablife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E976E1FD7DF5F00E8E5C9 /* Debug */,
+				033E976F1FD7DF5F00E8E5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E97701FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "AblifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E97711FD7DF5F00E8E5C9 /* Debug */,
+				033E97721FD7DF5F00E8E5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E97731FD7DF5F00E8E5C9 /* Build configuration list for PBXNativeTarget "AblifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E97741FD7DF5F00E8E5C9 /* Debug */,
+				033E97751FD7DF5F00E8E5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033E973D1FD7DF5E00E8E5C9 /* Project object */;
+}
